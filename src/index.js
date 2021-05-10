@@ -1,1 +1,3 @@
-console.log('Hello vanilla')
+import router from './routes';
+
+window.addEventListener('load', router);
